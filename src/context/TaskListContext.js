@@ -4,17 +4,17 @@ import {v4 as uuid} from 'uuid'
 
 export const TaskListContext = createContext();
 
-const initialState = JSON.parse(localStorage.getItem('tasks') || [])
+//const initialState = JSON.parse(localStorage.getItem('tasks') || [])
 
 const TaskListContextProvider = (props)=>{
 
-  const [tasks,setTasks] = useState(initialState)
+  const [tasks,setTasks] = useState([])
     // Edit Item State
   const [editItem,setEditItem] = useState(null)
 
-    useEffect(() =>{
-        localStorage.setItem('tasks', JSON.stringify(tasks))
-    },[tasks])
+    // useEffect(() =>{
+    //     localStorage.setItem('tasks', JSON.stringify(tasks))
+    // },[tasks])
     // Functions
 
     // Add Task Function
