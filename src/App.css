@@ -162,3 +162,22 @@
   font-size: 18px;
   margin-top: 20px;
 }
+
+.footer {
+  color: #5ea841;
+  background: white;
+  height: 50px;
+  padding-top: 20px;
+  border-radius: 30px;
+  text-align: center;
+}
+.footer a{
+  background: #5ea841;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 30px;
+  color: white;
+  margin-left: 5px;
+}

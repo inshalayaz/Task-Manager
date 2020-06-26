@@ -4,6 +4,7 @@ import TaskList from './components/TaskList'
 import TaskListContextProvider from './context/TaskListContext'
 import TaskForm from './components/TaskForms'
 import Header from './components/Header'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Header />
           <TaskForm />
           <TaskList />    
+          <Footer />
           </div>
          </div>   
         </div>
